@@ -31,6 +31,7 @@
 		<Assembly Name="Microsoft.Kiota.Serialization.Form" Dynamic="Public" />
 		<Assembly Name="Microsoft.Kiota.Serialization.Json" Dynamic="Public" />
 		<Assembly Name="Microsoft.Kiota.Serialization.Multipart" Dynamic="Public" />
+		<Assembly Name="CommunityToolkit.Mvvm" Dynamic="Public" />
 
 		<!-- Add your application specific runtime directives here. -->
 		<Type Name="Windows.Foundation.TypedEventHandler{Microsoft.UI.Xaml.Controls.NavigationView,Microsoft.UI.Xaml.Controls.NavigationViewItemInvokedEventArgs}" MarshalObject="Public" />

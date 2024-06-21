@@ -16,15 +16,15 @@
 	</Extensions>
 	
   <Identity
-    Name="58272BurakKSE.WinoCalendar"
-    Publisher="CN=51FBDAF3-E212-4149-89A2-A2636B3BC911"
+    Name="49014Shompinice.33225C4EACE67"
+    Publisher="CN=8136FD48-8D5A-4FB2-8DF9-A606C867768F"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="f047b7dd-96ec-4d54-a862-9321e271e449" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="f0a9841e-ada5-4262-ae4a-8b65c61de808" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>Wino Calendar</DisplayName>
-    <PublisherDisplayName>Burak KÖSE</PublisherDisplayName>
+    <DisplayName>Calendar UWP</DisplayName>
+    <PublisherDisplayName>Shompinice</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -41,7 +41,7 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="Wino.Calendar.App">
       <uap:VisualElements
-        DisplayName="Wino Calendar"
+        DisplayName="Calendar UWP"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="Wino.Calendar"
