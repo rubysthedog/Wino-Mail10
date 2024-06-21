@@ -23,7 +23,7 @@
     Publisher="CN=8136FD48-8D5A-4FB2-8DF9-A606C867768F"
     Version="1.7.3.0" />
 
-  <mp:PhoneIdentity PhoneProductId="97b13933-57e5-4bab-8bed-8ed8ed0ab33d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="59572c14-a041-4f98-b010-737cccac411d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Mail Universal</DisplayName>
