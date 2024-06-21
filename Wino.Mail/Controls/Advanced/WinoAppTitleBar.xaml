@@ -96,10 +96,8 @@
             <ContentPresenter
                 x:Name="ShellContentContainer"
                 Grid.Column="1"
-                Grid.ColumnSpan="1"
                 Canvas.ZIndex="2"
-                 HorizontalAlignment="Stretch"
-                Content="{x:Bind ShellFrameContent, Mode=OneWay}" RenderTransformOrigin="0.5,0.5">
+                Content="{x:Bind ShellFrameContent, Mode=OneWay}">
                 <ContentPresenter.ContentTransitions>
                     <TransitionCollection>
                         <PaneThemeTransition Edge="Top" />
