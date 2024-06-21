@@ -127,13 +127,11 @@ namespace Wino.Core.Services
 
                 if (nonStickyFolders.Any())
                 {
-                    //var virtualMoreFolder = new MailItemFolder()
-                    //{
-                    //    FolderName = Translator.More,
-                    //    SpecialFolderType = SpecialFolderType.More
-                    //};
-
-                    var moreFolders = new List<MailItemFolder>();
+                    var virtualMoreFolder = new MailItemFolder()
+                    {
+                        FolderName = Translator.More,
+                        SpecialFolderType = SpecialFolderType.More
+                    };
 
                     foreach (var unstickyItem in nonStickyFolders)
                     {
@@ -158,14 +156,12 @@ namespace Wino.Core.Services
 
                         var structure = await GetChildFolderItemsRecursiveAsync(unstickyItem.Id, accountId);
 
-                        moreFolders.Add(structure);
+                        virtualMoreFolder.ChildFolders.Add(structure);
                     }
 
                     // Only add more if there are any.
-                    if (moreFolders.Count > 0)
-                    {
-                        accountTree.Folders.AddRange(moreFolders);
-                    }
+                    if (virtualMoreFolder.ChildFolders.Count > 0)
+                        accountTree.Folders.Add(virtualMoreFolder);
                 }
             }
 
